@@ -1,0 +1,137 @@
+body{
+  background-color: #F6F6F6;
+}
+
+.wrapper { 
+  font-family: "Lato";
+}
+
+/*Header*/
+.header { 
+  max-width: 561px;
+  margin: 0 auto;
+}
+
+.header__title { 
+  color: #3c3c3c;
+  font-size: 34px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+}
+
+.hr-line{
+  width: 45px;
+  height: 4px;
+  background-color: #DDDBDB;
+  border: #DDDBDB;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.header__text { 
+  width: 561px;
+  color: #3c3c3c;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+}
+
+/*Main*/
+.main { 
+  display: flex;
+  justify-content: center;
+}
+
+.main-block { 
+  width: 269px;
+  height: 268px;
+  margin-top: 59px;
+  margin-left: 31px;
+}
+
+.main-block-1{
+  width: 269px;
+  height: 268px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.main-block-1:hover{
+  width: 269px;
+  height: 268px;
+  background-color: #00aed9;
+  opacity: 0.9;
+}
+
+.main-block:hover { 
+  width: 269px;
+  height: 268px;
+  border: 5px solid #2903ff65;
+}
+
+
+.main-block__logo1 {
+  width: 42px;
+  height: 42px;
+  background-color: #868686;
+  opacity: 0.3;
+}
+
+.main-block__logo2 { 
+  width: 42px;
+  height: 42px;
+  background-color: #868686;
+  opacity: 0.3;
+  margin: 0px 4px 0px 4px;
+}
+
+.main-block__logo3 { 
+  width: 42px;
+  height: 42px;
+  background-color: #868686;
+  opacity: 0.3;
+}
+
+/*Block*/
+.main-block__name { 
+  margin: 21px 0px 0px 0px;
+  font-size: 18px;
+  color: #282528;
+}
+
+.name { 
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.post { 
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: -15px;
+  color: #646464;
+}
+
+.main-block__name:hover{
+  width: 259px;
+  height: 60px;
+  background-color: #00aed9;
+  opacity: 0.9;
+  font-size: 25px;
+  padding: 0px 5px;
+  color: rgb(255, 255, 255);
+}
